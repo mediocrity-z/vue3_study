@@ -1,5 +1,4 @@
 <template>
-<sus></sus>
 </template>
 
 <script lang="ts">
@@ -19,7 +18,7 @@ import { defineComponent } from 'vue'
 // import grand from './components/communication/grandpa.vue'
 // import judge from './components/judge.vue'
 // import tel from './components/teleport.vue'
-import sus from './components/suspense/suspense.vue'
+// import sus from './components/suspense/suspense.vue'
 export default defineComponent({
   name: 'App',
   components:{
@@ -38,7 +37,7 @@ export default defineComponent({
     // grand
     // judge
     // tel
-    sus
+    // sus
   }
 
 })
